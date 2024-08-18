@@ -1,0 +1,81 @@
+name: doctour
+description: "A combined Flutter project with assets and dependencies from both configurations."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^4.0.4
+  intl: ^0.17.0
+  flutter_map: ^3.1.0
+  latlong2: ^0.8.0
+  carousel_slider: ^5.0.0
+  image_picker: ^1.1.2 # Updated version
+  path_provider: ^2.0.9 # Added from the first config
+  camera: ^0.11.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Combined assets from both configurations
+    - assets/booking.png
+    - assets/affiliate-marketing.png
+    - assets/emergency-call.png
+    - assets/healthcare.png
+    - assets/hotel.png
+    - assets/maps2.png
+    - assets/transport.png
+    - assets/travelling.png
+    - assets/vaccine.png
+    - assets/user.png
+    - assets/application.png
+    - assets/chat.png
+    - assets/Screenshot 2024-08-17 004738.png
+    - assets/Screenshot 2024-08-17 005006.png
+    - assets/lec1.jpg
+    - assets/lec2.jpg
+    - assets/lec3.jpg
+    - assets/lec4.jpg
+    - assets/profile.png
+    - assets/Logo.png
+    - assets/Passport.jpeg
+    - assets/FaceVerification.jpeg
+    - assets/shuffle.png
+    - assets/AirAsia.png
+    - assets/Batik.png
+    - assets/visalogo.png
+    - assets/airasialogo.png
+    - assets/maps.png
+    - assets/qr rickroll.png
+    - assets/aia.png
+    - assets/alianz.png
+    - assets/axa.png
+    - assets/etiqa.png
+    - assets/manulife.png
+    - assets/pruden.jpeg
+    - assets/map.png
+    - assets/seri pacific.jpeg
+    - assets/seri pacific 2.jpeg
+    - assets/seri pacific 3.jpeg
+    - assets/sunway hotel.jpeg
+    - assets/sunway hotel 2.jpeg
+    - assets/sunway hotel 3.jpeg
+    - assets/tamu hotel.jpeg
+    - assets/westin_hotel.jpeg
+    - assets/grand_hyatt.jpeg
+    - assets/grandhyatt2.jpeg
+    - assets/grandhyatt3.jpeg
+    - assets/garden_hotel.jpeg
